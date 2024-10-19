@@ -4,8 +4,8 @@
   --color-medium: #ced4da;
   --color-light: #f1f3f5;
 
-  --color-theme: #1098ad;
-  --color-accent: #ffa94d;
+  --color-theme: #1088ad;
+  --color-accent: #ff9c9c;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
@@ -81,6 +81,7 @@ h4 {
   font-size: 2.2rem;
   font-weight: 600;
   margin-bottom: 2.4rem;
+  align-items: center;
 }
 
 .start {
@@ -133,7 +134,7 @@ progress {
 }
 
 .btn-option:not([disabled]):hover {
-  transform: translateX(1.2rem);
+  transform: scale(1.15);
 }
 
 .btn[disabled]:hover {
@@ -152,8 +153,8 @@ progress {
 }
 
 .btn-option {
-  width: 100%;
-  text-align: left;
+  width: 90%;
+  text-align: center;
 }
 
 .btn-option.correct {
@@ -168,7 +169,7 @@ progress {
 }
 
 .answer {
-  transform: translateX(2rem);
+  transform: scale(1.15);
 }
 
 .result {
