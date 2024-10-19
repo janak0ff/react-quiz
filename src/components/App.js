@@ -68,6 +68,9 @@ function reducer(state, action) {
           state.points > state.highSocre ? state.points : state.highSocre,
       };
 
+    case "restart":
+      return { ...initialState, questions: state.questions, status: "ready" };
+
     default:
       throw new Error("Unknown Action");
   }
